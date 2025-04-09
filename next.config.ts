@@ -1,9 +1,18 @@
-// next.config.js
+// // next.config.js
+// const nextConfig = {
+//   eslint: {
+//     ignoreDuringBuilds: true,
+//   },
+//   // other configs if any
+// }
+
+// module.exports = nextConfig
+
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  // other configs if any
+  experimental: {
+    appDir: true
+  }
 }
 
 module.exports = nextConfig
